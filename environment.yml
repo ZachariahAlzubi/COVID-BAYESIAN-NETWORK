@@ -1,19 +1,13 @@
-name: covid-bn
+name: base
 channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - black
-  - ipykernel
-  - matplotlib
-  - mypy
-  - pandas
   - pip
-  - pytest
-  - anaconda::jupyter
+  - conda[version='>=23.11.0']
+  - mamba[version='>=1.5.5']
+  - pgmpy
   - ca-certificates
   - certifi
   - openssl
-  - scipy
-  - numpy
-  - geopandas
+prefix: /home/abhmul/miniforge3
