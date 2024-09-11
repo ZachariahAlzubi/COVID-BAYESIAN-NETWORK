@@ -1,0 +1,13 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - conda[version='>=23.11.0']
+  - mamba[version='>=1.5.5']
+  - pgmpy
+  - ca-certificates
+  - certifi
+  - openssl
+prefix: /home/abhmul/miniforge3
